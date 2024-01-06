@@ -1,0 +1,491 @@
+.header_container{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1.5px solid #999;
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+    z-index: 1;
+    background-color: white;
+}
+.header_container::before{
+    content: "";
+    display: block;
+    border: 1px solid #999;
+    height: 22px;
+    position: relative;
+    left: 85.5%;
+    top:15px;
+}
+.icon{
+   font-size: 26px;
+   position: relative;
+   top:10px;
+}
+.icon:hover{
+    color:rgb(18, 132, 132)
+}
+.label{
+    font-size: 25px;
+    position: relative;
+    top:8px;
+}
+.link-head{
+    font-size: 13px;
+    position: relative;
+    top:17px;
+    text-decoration: none;
+    color: black;
+    left: -10px;
+    transition: all 0.3s;
+}
+.link-head:hover{
+    text-decoration: underline;
+    color:rgb(14, 135, 135);
+}
+.link-head-sign{
+    font-size: 13px;
+    position: relative;
+    top:20px;
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    margin-left: 50px;
+}
+.link-head-sign:hover{
+    color:rgb(18, 132, 132);
+    text-decoration: underline;
+}
+.btn-sub{
+    position: relative;
+    top:13px;
+    font-size: 11.5px;
+    height: 30px;
+    border: none;
+    background-color: #2f6697;
+    color:white;
+}
+/* CSS  CENTER */
+.container-center{
+    width: 90%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    position: relative;
+    left: 50px;
+}
+.img{
+    width: 50%;
+    height: 100px;
+    position: relative;
+    top:5px;
+    left: 300px;
+}
+.label-con{
+width: 30%;
+height: 20px;
+position: relative;
+display: flex;
+justify-content: space-between;
+top:40px;
+}
+.title{
+    font-size: 40px;
+    position:relative;
+    top:40px;
+}
+.para{
+    position: relative;
+    top:20px;
+    font-weight: bold;
+}
+.img_1{
+    width: 60%;
+    height: 450px;
+    position: relative;
+    top:60px;
+}
+.author{
+    display: block;
+    position: relative;
+    top:60px;
+    font-size: 12px;
+}
+.center-mid{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top:100px;
+    display: flex;
+}
+.center-mid-left{
+    width: 55%;
+    height: 100%;
+    position: relative;
+    left: 40px;
+    /* background-color: aqua; */
+}
+.paragraph{
+    font-size: 20px;
+}
+.title-new{
+    font-size: 25px;
+    font-weight: bold;
+}
+.center-mid-right-1{
+width: 100%;
+height: 100%;
+}
+.center-mid-right-1::before{
+    content: "";
+    display: block;
+    border: 2px solid #999;
+    width: 91%;
+    position: relative;
+    left: 42px;
+}
+.center-mid-right-1::after{
+    content: "";
+    display: block;
+    border: 2px solid #999;
+    position: relative;
+    top:25px;
+    width: 91%;
+    left: 40px;
+}
+.center-mid-right{
+    width: 45%;
+    height: 100%;
+    /* background-color: red; */
+}
+.img_2{
+    width: 80%;
+    height: 300px;
+    position: relative;
+    top:20px;
+    left: 70px;
+}
+.con-label-m{
+width: 90%;
+position: relative;
+top:50px;
+left: 40px;
+height: 100%;
+background-color: azure;
+}
+.con-label-m::after{
+    content: "";
+    display: block;
+    border: 1.5px solid #999;
+    position: relative;
+    top:22px;
+}
+.con-qc{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    top:100px;
+    left: 50px;
+    border-bottom: 1px solid #999;
+    width: 89%;
+}
+.img_3{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    top:20px;
+}
+.label_1{
+    display: block;
+    font-size: 13px;
+    color:#999;
+}
+.title_1{
+    line-height: 25px;
+    position: relative;
+    left: 40px;
+}
+.link_qc{
+    font-size: 19px;
+    text-decoration: none;
+    color:black;
+}
+.link_qc:hover{
+    text-decoration: underline;
+    color:#2f6697
+}
+.con-mid-2{
+    width: 55%;
+    height: 100%;
+    position: relative;
+    top:140px;
+    left: 48px;
+}
+.con-mid-2::before{
+    content: "";
+    display: block;
+    border: 1.3px solid #999;
+    width: 95%;
+    position: relative;
+    top:-40px;
+}
+.label-5{
+    font-size: 30px;
+    font-weight: bold;
+}
+.con-li{
+    line-height: 25px;
+}
+.li{
+    font-size: 20px;
+    color: #1a1a1a;
+}
+.a-li{
+    color:#1a1a1a;
+}
+.a-li:hover{
+    color:rgb(37, 157, 157)
+}
+.con-mid-2::after{
+    content: "";
+    display: block;
+    border: 1.3px solid #999;
+    width: 95%;
+    position: relative;
+    top:25px;
+}
+.con-author{
+    width: 55%;
+    height: 100%;
+    position: relative;
+    top:200px;
+    display: flex;
+    justify-content: space-around;
+    left: 50px;
+}
+.img-7{
+width: 100px;
+height: 100px;
+}
+.label-6{
+    font-size: 14px;
+    color:#999;
+}
+.con-a{
+    width: 55%;
+    height: 100%;
+    position: relative;
+    top:250px;
+    left: 63px;
+}
+.con-a::before{
+    content: "";
+    display: block;
+    border: 1.3px solid #e5e5e5;
+    position: relative;
+    top:-10px;
+    left: -24px;
+}
+.con-a::after{
+    content: "";
+    display: block;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    top:25px;
+    left: -25px;
+}
+.a{
+    margin-left: 20px;
+    font-size: 13px;
+    color:#1a1a1a;
+}
+.a:hover{
+    color:rgb(47, 129, 129);
+}
+.a-m{
+    font-size: 13px;
+    position: relative;
+    top:10px;
+    color:#1a1a1a;
+}
+.a-m:hover{
+    color:rgb(47, 129, 129);
+}
+.label-tp{
+    color:#999;
+    font-size: 13px;
+}
+/* CSS Con-infor */
+.con-infor{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top:400px;
+    
+}
+.img-8{
+    width: 270px;
+    height: 160px;
+}
+.con-label{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+.label-o{
+font-size: 18px;
+position: relative;
+top:10px;
+font-weight: bold;
+}
+.con-label::after{
+    content: "";
+    display: block;
+    border: 1.5px solid #e5e5e5;
+    position: relative;
+    top:-30px;
+}
+.con-label::before{
+    content: "";
+    display: block;
+    border: 1.5px solid #e5e5e5;
+    position: relative;
+    top:50px;
+}
+.div-a{
+    display: block;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.div-a:hover{
+    text-decoration: underline;
+}
+.con-img-infor{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.p{
+    color: #2f2f2f;
+    
+}
+.author-label{
+   font-size: 13px;
+   font-weight: bold;
+
+}
+.con-img-1{
+    width: 25%;
+    height: 100%;
+    margin-left: 20px;
+    position: relative;
+    left: -40px;
+}
+.con-img-infor-2{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top:50px;
+}
+/* CSS con-final */
+.img-container{
+    width: 70%;
+    height: 100%;
+    position: relative;
+    top:500px;
+    left: 170px;
+}
+.img-9{
+    width: 220px;
+    height: 170px;
+}
+.a_img{
+    display: block;
+    font-size: 20px;
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.a_img:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.span{
+    font-size: 25px;
+    font-weight: bold;
+}
+.img-con-infor{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    top:10px;
+}
+.label-author{
+    font-size: 15px;
+    color:#999;
+    position: relative;
+    top:5px;
+}
+.con_infor{
+    width: 33%;
+    height: 100%;
+}
+.img-con-infor-3{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top:30px;
+}
+/* CSS footer */
+.con-footer{
+    width: 100%;
+    height: 100%;
+    background-color: #1a1a1a;
+    position: relative;
+    top:600px;
+    display: flex;
+    justify-content: space-around;
+}
+/* .con-footer::before{
+    content: "";
+    display: block;
+    border: 1.3px solid #999;
+    position: relative;
+    width: 100%;
+    height: 0;
+    top:100px;
+} */
+.p-a{
+    display: block;
+    text-decoration: none;
+    color:#e5e5e5;
+}
+.p-a:hover{
+    text-decoration: underline;
+}
+.icon-con{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 30px;
+    position: relative;
+    left: -30px;
+    bottom: 10px;
+}
+.icon{
+    font-size: 20px;
+    color: #999;
+}
+.para-footer{
+    color:#e5e5e5
+}
+.label-footer{
+    color:#e5e5e5
+}
